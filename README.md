@@ -5,16 +5,26 @@ Pagina pubblica servita da GitHub Pages su **privacy.typovox.app**.
 Repo separata e pubblica di proposito: GitHub Pages sui piani gratuiti funziona solo da repo
 pubbliche, e il codice di TypoVox deve restare privato. Qui c'è solo la pagina.
 
-## Prima di considerarla valida
+## ⚠️ Il nome del titolare è volutamente omesso
 
-Nel file `index.html` ci sono due segnaposto evidenziati in giallo. **Finché ci sono,
-l'informativa NON è conforme**: l'art. 13 GDPR richiede identità e contatti del titolare, e
-Google Play verifica che la policy sia completa.
+L'informativa indica come titolare "lo sviluppatore di TypoVox" con l'email di contatto, senza
+nome e cognome. **È una scelta consapevole, non una dimenticanza**, presa il 02/08 in attesa di
+una consulenza legale quando il progetto crescerà.
 
-- `[NOME E COGNOME]` — il titolare del trattamento. Serve il nome reale.
-- `[EMAIL]` — compare in due punti (sezione 1 e sezione 7).
+Il quadro, per chi la riprenderà in mano:
 
-Cerca `da-completare` nell'HTML per trovarli.
+- L'art. 13(1)(a) GDPR chiede "l'identità e i dati di contatto del titolare" **senza specificare
+  il formato**: non dice "nome e cognome", né lo esclude. La norma lascia l'interpretazione alle
+  autorità.
+- La funzione della norma — che l'interessato sappia a chi rivolgersi e possa farlo — è assolta
+  da un'email monitorata.
+- L'argomento contrario, che resta serio: davanti a un reclamo il Garante deve poter identificare
+  il titolare, e la sola email non è ciò che la norma immagina.
+- Fatto pratico: su Google Play il nome dello sviluppatore compare comunque nella scheda dell'app,
+  perché Google richiede la verifica dell'identità per gli account personali.
+
+**Quando arriverà la consulenza**, la formula più solida è: `TypoVox — progetto di [Nome Cognome]`.
+Si cambia in un punto solo, nella sezione 1.
 
 ## Configurazione DNS su Cloudflare
 
