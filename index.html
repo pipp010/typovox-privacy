@@ -107,6 +107,8 @@ dell'app e spariscono quando la disinstalli.</p>
   <li><strong>Preferenze</strong>: tema, colori, altezza della tastiera, lingua, funzioni attive.</li>
   <li><strong>Appunti</strong>: gli ultimi testi copiati, se attivi la funzione.</li>
   <li><strong>Emoji recenti</strong>.</li>
+  <li><strong>Campione della tua voce</strong>, solo se attivi «Usa la mia voce» e lo registri tu
+      dalle impostazioni. Resta sul telefono finché non lo elimini; vedi sotto quando viene inviato.</li>
 </ul>
 <p class="nota">Base giuridica: legittimo interesse a rendere funzionante la tastiera
 (art. 6.1.f GDPR).</p>
@@ -130,6 +132,11 @@ dell'app e spariscono quando la disinstalli.</p>
     <td>Accesso</td>
     <td>il tuo indirizzo email</td>
     <td>solo se accedi con Google</td>
+  </tr>
+  <tr>
+    <td>Voce clonata</td>
+    <td>il campione della tua voce e la frase da pronunciare</td>
+    <td>quando generi una voce, solo se hai attivato «Usa la mia voce»</td>
   </tr>
   <tr>
     <td>Acquisto di crediti</td>
@@ -169,6 +176,15 @@ di una funzione di registrazione, che non utilizziamo.</p>
 <p><a href="https://openrouter.ai/privacy" rel="noopener">Informativa di OpenRouter</a> ·
 <a href="https://openrouter.ai/docs/guides/features/zdr" rel="noopener">Zero Data Retention</a></p>
 
+<h3>Voce clonata</h3>
+<p>Se attivi «Usa la mia voce», ti viene chiesto un consenso esplicito. Da quel momento, quando
+generi una voce, il campione che hai registrato viene inviato insieme alla frase, tramite
+OpenRouter, al servizio di sintesi <strong>Fish Audio</strong>, che la pronuncia con la tua voce.
+La richiesta è instradata solo verso endpoint in <strong>Zero Data Retention</strong>: il campione
+non viene conservato né usato per addestrare modelli. Puoi revocare il consenso disattivando
+l'opzione ed eliminare il campione in qualsiasi momento dalle impostazioni.</p>
+<p class="nota">Base giuridica: consenso esplicito (art. 9.2.a GDPR), revocabile in ogni momento.</p>
+
 <h3>Account e crediti</h3>
 <p>L'indirizzo email e il saldo dei crediti sono conservati su <strong>Supabase, Inc.</strong>,
 che agisce come responsabile del trattamento per nostro conto, con server nell'<strong>Unione
@@ -205,6 +221,7 @@ approvate dalla Commissione europea (art. 46 GDPR).</p>
   <tr><th>Dato</th><th>Conservazione</th></tr>
   <tr><td>Dizionario, preferenze, appunti</td><td>sul dispositivo, finché non disinstalli l'app o ne cancelli i dati</td></tr>
   <tr><td>Registrazione audio</td><td>cancellata dal dispositivo subito dopo la trascrizione</td></tr>
+  <tr><td>Campione della tua voce</td><td>sul dispositivo, finché non lo elimini; non conservato dal servizio di sintesi</td></tr>
   <tr><td>Testo inviato alle funzioni AI</td><td>non conservato da noi</td></tr>
   <tr><td>Email e saldo crediti</td><td>finché l'account esiste</td></tr>
   <tr><td>Storico degli acquisti di crediti</td><td>finché l'account esiste</td></tr>
