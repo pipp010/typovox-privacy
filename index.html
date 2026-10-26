@@ -79,7 +79,7 @@
 
 <header>
   <h1>Informativa sulla privacy</h1>
-  <p class="sub">TypoVox — tastiera per Android · Ultimo aggiornamento: 20 ottobre 2026</p>
+  <p class="sub">TypoVox — tastiera per Android · Ultimo aggiornamento: 26 ottobre 2026</p>
 </header>
 
 <div class="sommario">
@@ -87,8 +87,9 @@
   <p><strong>TypoVox funziona quasi interamente sul tuo dispositivo.</strong> Correzione,
   suggerimenti, scrittura a scorrimento e dizionario personale non lasciano mai il telefono:
   <strong>quello che digiti non viene trasmesso</strong>.</p>
-  <p style="margin-bottom:0">Alcune funzioni che avvii tu — dettatura, traduzione, riscrittura —
-  inviano i dati necessari a servizi esterni. Nei campi password non viene memorizzato nulla.</p>
+  <p style="margin-bottom:0">Alcune funzioni che avvii tu — dettatura, traduzione, riscrittura,
+  sintesi vocale — inviano i dati necessari a servizi esterni. Nei campi password non viene
+  memorizzato nulla.</p>
 </div>
 
 <h2>1. Chi tratta i tuoi dati</h2>
@@ -121,7 +122,7 @@ dell'app e spariscono quando la disinstalli.</p>
   <tr>
     <td>Dettatura</td>
     <td>la registrazione audio</td>
-    <td>quando tieni premuto il microfono</td>
+    <td>quando usi il microfono</td>
   </tr>
   <tr>
     <td>Traduzione e riscrittura</td>
@@ -129,9 +130,14 @@ dell'app e spariscono quando la disinstalli.</p>
     <td>quando scegli l'azione dal menu</td>
   </tr>
   <tr>
+    <td>Sintesi vocale</td>
+    <td>il testo da pronunciare</td>
+    <td>quando chiedi di ascoltare una traduzione o di generare la voce</td>
+  </tr>
+  <tr>
     <td>Accesso</td>
-    <td>il tuo indirizzo email</td>
-    <td>solo se accedi con Google</td>
+    <td>il tuo indirizzo email e un identificativo del dispositivo</td>
+    <td>quando accedi al tuo account</td>
   </tr>
   <tr>
     <td>Voce clonata</td>
@@ -148,6 +154,21 @@ dell'app e spariscono quando la disinstalli.</p>
 
 <p>L'audio viene cancellato dal dispositivo dopo la trascrizione. <strong>Non conserviamo né
 le registrazioni né i testi inviati.</strong></p>
+
+<h3>Identificativo del dispositivo</h3>
+<p>Quando accedi, l'app invia l'identificativo Android del dispositivo. Ne conserviamo solo una
+versione cifrata in modo irreversibile (hash), che serve <strong>esclusivamente</strong> a
+evitare che il bonus di benvenuto venga riscosso più volte sullo stesso dispositivo con account
+diversi. Allo stesso scopo conserviamo l'hash del tuo indirizzo email. Non li condividiamo con
+nessuno e non li usiamo per pubblicità o statistiche. Da Android 8 questo identificativo è
+diverso per ogni app: non permette di seguirti in altre applicazioni.</p>
+<p class="nota">Base giuridica: legittimo interesse a prevenire abusi del bonus di benvenuto
+(art. 6.1.f GDPR).</p>
+
+<h3>Registro delle operazioni</h3>
+<p>Per ogni funzione AI usata registriamo quando, quale funzione, quanto audio o quanti caratteri
+e quanti crediti è costata. Serve a tenere il saldo e a verificare i costi.
+<strong>Il registro non contiene mai il contenuto</strong>: né l'audio, né il testo.</p>
 
 <p class="nota">Base giuridica: esecuzione del servizio che hai richiesto (art. 6.1.b GDPR).
 Per l'invio a servizi di intelligenza artificiale ti viene inoltre chiesto un consenso
@@ -186,7 +207,8 @@ l'opzione ed eliminare il campione in qualsiasi momento dalle impostazioni.</p>
 <p class="nota">Base giuridica: consenso esplicito (art. 9.2.a GDPR), revocabile in ogni momento.</p>
 
 <h3>Account e crediti</h3>
-<p>L'indirizzo email e il saldo dei crediti sono conservati su <strong>Supabase, Inc.</strong>,
+<p>L'indirizzo email, il saldo dei crediti, il registro delle operazioni, lo storico degli
+acquisti e gli hash di email e dispositivo sono conservati su <strong>Supabase, Inc.</strong>,
 che agisce come responsabile del trattamento per nostro conto, con server nell'<strong>Unione
 europea (Irlanda)</strong>.</p>
 <p><a href="https://supabase.com/privacy" rel="noopener">Informativa di Supabase</a></p>
@@ -225,6 +247,8 @@ approvate dalla Commissione europea (art. 46 GDPR).</p>
   <tr><td>Testo inviato alle funzioni AI</td><td>non conservato da noi</td></tr>
   <tr><td>Email e saldo crediti</td><td>finché l'account esiste</td></tr>
   <tr><td>Storico degli acquisti di crediti</td><td>finché l'account esiste</td></tr>
+  <tr><td>Registro delle operazioni</td><td>finché l'account esiste</td></tr>
+  <tr><td>Hash di email e dispositivo</td><td>conservati anche dopo l'eliminazione dell'account, senza più alcun collegamento ad esso, solo per impedire di riottenere il bonus di benvenuto</td></tr>
 </table>
 </div>
 
